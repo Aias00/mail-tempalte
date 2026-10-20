@@ -38,7 +38,7 @@ bodyClass: bg-white
 
                 <x-button
                   class="text-sm bg-[#3A5BEF] rounded-none mb-2.5"
-                  href="https://oss-compass.org/verify/0d656b1bb37fd74aa7215a3fdba0e9f432aa7a966fs"
+                  href="{{ verificationUrl }}"
                 >
                   验证您的电子邮件地址
                 </x-button>
@@ -46,7 +46,7 @@ bodyClass: bg-white
                 <p class="text-sm">
                   如果这不起作用，请尝试复制并粘贴以下链接到浏览器中:
                   <span class="break-all"
-                    >https://oss-compass.org/verify/0d656b1bb37fd74aa7215a3fdba0e9f432aa7a966fs</span
+                    >{{ verificationUrl }}</span
                   >
                 </p>
                 <p class="text-sm mb-0">
